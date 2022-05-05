@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Filmfinder</title>
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Film Finder</h1>
+      <nav>
+        <input
+          type="radio"
+          id="lastmovies"
+          name="film-filter"
+          value="lastmovies"
+        />
+        <label for="lastmovies">Laatste Films, 2014 of nieuwer</label>
+
+        <input type="radio" id="avenger" name="film-filter" value="avenger" />
+        <label for="avenger">Avenger Films</label>
+
+        <input type="radio" id="xmen" name="film-filter" value="xmen" />
+        <label for="xmen">X-Men Films</label>
+
+        <input type="radio" id="princess" name="film-filter" value="princess" />
+        <label for="princess">Princess Films</label>
+
+        <input type="radio" id="batman" name="film-filter" value="batman" />
+        <label for="batman">Batman Films</label>
+      </nav>
+      <main>
+        <ul id="navigation-list"></ul>
+      </main>
+    </div>
+  </body>
+</html>
